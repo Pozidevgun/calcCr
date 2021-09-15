@@ -1,0 +1,87 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+.calc{
+    padding: 30px;
+    margin: 200px auto;
+    width: 100%;
+    border: 1px solid #000;
+}
+.calc__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid #eee;
+}
+.calc__block.calc__block--colunm{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.calc__block.calc__block--bbn{
+    border-bottom: none;
+}
+.calc__invest{
+    font-size: 30px;
+}
+.calc__currencys{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    max-width: 250px;
+}
+.ggg{
+    padding: 10px;
+    
+    
+    border: 1px solid rgba(0,0,0,.5);
+}
+.active{
+    box-shadow: 0px 0px 5px rgba(0,0,255,.5);
+}
+.calc__currency:last-child{
+    margin-right: 0;
+}
+.calc__term{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.fff{
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+}
+.calc__term-mouth{
+    font-size: 11px;
+    font-weight: 700;
+    width: 100%;
+}
+.calc__term-percent{
+    font-size: 14px;
+    color: rgb(70, 240, 175);
+}
+.title{
+    color: rgb(75, 75, 75);
+    margin-bottom: 20px;
+}
+.range{
+    width: 100%;
+}
+.button{
+    padding: 10px;
+    color: #fff;
+    border:none;
+    background-color: rgb(85, 20, 238);
+}
+.block{
+    display: flex;
+    align-items: center;
+}

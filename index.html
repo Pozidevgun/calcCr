@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Crypto Calculation</title>
+</head>
+<body>
+    <div class="calc">
+        <div class="calc__block">
+            <div class="calc__invest">
+                Investment: <span class="calc__currency-value">$</span> <span class="calc__value">200</span>
+            </div>
+            <ul class="calc__currencys calc__block--bbn">
+              <li class="calc__currency active" data-currenty="$" data-name = "dollar"><div class="ggg">USD</div></li>
+              <li class="calc__currency"data-currenty="€"data-name ="EUR"><div class="ggg">EUR</div> </li>
+              <li class="calc__currency"data-currenty="£"data-name ="GBR"><div class="ggg">GBR</div> </li>  
+            </ul>
+        </div>
+        <div class="calc__block">
+            <input type="range" min="200" max="10000" step = "10" class = "range" value = "200">
+        </div>
+        <div class="calc__block calc__block--colunm calc__block--bbn">
+            <p class= "title">Term:</p>
+            <ul class="calc__term">
+                <li class="calc__term-item " data-percent = "0.15">
+                    <div class="fff active">
+                        <div class="calc__term-mouth">1 month</div>
+                    <div class="calc__term-percent">15% persents per month</div>
+                    </div>
+                    
+                </li>
+                <li class="calc__term-item" data-percent = "0.22">
+                    <div class="fff">
+                        <div class="calc__term-mouth">3 months</div>
+                        <div class="calc__term-percent">22% persents per month</div>
+                    </div>
+                   
+                </li>
+                <li class="calc__term-item" data-percent = "0.28">
+                    <div class="fff">
+                        <div class="calc__term-mouth">6 months</div>
+                    <div class="calc__term-percent">28% persents per month</div>
+                    </div>
+                    
+                </li>
+                <li class="calc__term-item" data-percent = "0.33">
+                    <div class="fff">
+                        <div class="calc__term-mouth">9 months</div>
+                        <div class="calc__term-percent">33% persents per month</div>
+                    </div>
+                   
+                </li>
+                <li class="calc__term-item" data-percent = "0.40">
+                    <div class="fff">
+                        <div class="calc__term-mouth">12 months</div>
+                        <div class="calc__term-percent">40% persents per month</div>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class="calc__block ">
+            <div class="calc__text">Your income:</div>
+            <div class="calc__income">
+                <div class = block>
+                    <span class="calc__income--currenty">$</span><div class="calc__income--money">230</div>
+                </div>
+                <div class="calc__income--month">15% persent per year</div>
+            </div>
+            <div class="calc__protection">
+                <div class = block>
+ <span class = "calc__protection--currenty">$</span><div class="calc__protection--money">141</div>
+                </div>
+               <div class="calc__protection">Invesment protection</div>
+            </div>
+            <button class="button">
+                Become an Invest
+            </button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
